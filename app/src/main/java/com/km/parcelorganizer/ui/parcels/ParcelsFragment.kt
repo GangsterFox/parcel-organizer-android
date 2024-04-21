@@ -114,6 +114,9 @@ class ParcelsFragment : BaseMVVMFragment<FragmentParcelsBinding, ParcelsViewMode
     /**
      * Open a Chrome Custom Tabs using the tracking url. If the url is not valid display a toast message.
      */
+    /** TODO: change this to open a proper view of the Parcels information
+     * Hey Arthur, this is your cue to help me with kotlin classes lol
+     * */
     override fun onParcelClick(parcel: Parcel) {
         val trackingUrl = parcel.parseTrackingUrl()
         if (!trackingUrl.isNullOrEmpty()) {
