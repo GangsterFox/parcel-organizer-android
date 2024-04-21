@@ -17,8 +17,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 class ParcelTrackerApi {
     companion object {
         // The base url off the api.
-//        private const val baseUrl = "http://10.0.2.2:8080/"
-        private const val baseUrl = "https://api.parcelorganizer.kmartin.nl//"
+        private const val baseUrl = "http://192.168.0.179:8080/"
+        //private const val baseUrl = "https://api.parcelorganizer.kmartin.nl//"
 
         /**
          * @return [ParcelTrackerApi] The service class off the retrofit client.
