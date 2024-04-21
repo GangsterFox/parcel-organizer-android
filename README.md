@@ -41,8 +41,7 @@ Parcel Organizer Native Android application
 
 ## How to get it running
 
-1. Upgrade gradle to 7.2
-2. Set `client.secret.username="parcel-organizer-android"` and `client.secret.password="secret"` in your local properties
-3. Start the postgres server and parcel-organizer-api and add the IP:port as a baseUrl in `ParcelTrackerApi.kt`
-4. If required, change the `network_security_config.xml` settings to include Subdomains of the api IP
-5. Profit!
+1. Set `client.secret.username="parcel-organizer-android"` and `client.secret.password="secret"` in your local properties
+2. Start the postgres server and parcel-organizer-api and add the IP:port as a baseUrl in `ParcelTrackerApi.kt`
+3. If required, change the `network_security_config.xml` settings to include Subdomains of the api IP
+4. Profit!
