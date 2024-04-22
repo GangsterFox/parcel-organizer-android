@@ -56,7 +56,7 @@
             app:argType="string"
             app:nullable="true" />
         <action
-            android:id="@+id/action_parcelsFragment_to_parcelsDetailView2"
+            android:id="@+id/action_parcelsFragment_to_parcelsDetailView"
             app:destination="@id/parcelsDetailView" />
     </fragment>
     <fragment

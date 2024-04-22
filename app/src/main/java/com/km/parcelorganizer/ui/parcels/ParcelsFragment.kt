@@ -118,8 +118,8 @@ class ParcelsFragment : BaseMVVMFragment<FragmentParcelsBinding, ParcelsViewMode
      * Hey Arthur, this is your cue to help me with kotlin classes lol
      * */
     override fun onParcelClick(parcel: Parcel) {
-//        val action = ParcelsFragmentDirections.actionParcelsFragmentToParcelsDetailView(parcel)
-        val action = ParcelsFragmentDirections.actionParcelsFragmentToParcelsDetailView2(parcel)
+        val action = ParcelsFragmentDirections.actionParcelsFragmentToParcelsDetailView(parcel)
+        //val action = ParcelsFragmentDirections.actionParcelsFragmentToParcelsDetailView(parcel)
         findNavController().navigate(action)
     }
 

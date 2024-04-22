@@ -8,7 +8,7 @@ import android.widget.TextView
 import com.km.parcelorganizer.R
 import com.km.parcelorganizer.model.Parcel
 
-class ParcelDetailFragment : Fragment() {
+class ParcelsDetailView : Fragment() {
     private lateinit var parcel: Parcel
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,7 +44,7 @@ class ParcelDetailFragment : Fragment() {
     companion object {
         @JvmStatic
         fun newInstance(parcel: Parcel) =
-            ParcelDetailFragment().apply {
+            ParcelsDetailView().apply {
                 arguments = Bundle().apply {
                     putParcelable("parcel", parcel)
                 }
