@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvParcelId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID: " />
+
+        <TextView
+            android:id="@+id/tvParcelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: " />
+
+        <TextView
+            android:id="@+id/tvParcelDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description: " />
+
+        <TextView
+            android:id="@+id/tvParcelStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: " />
+
+        <TextView
+            android:id="@+id/tvParcelTrackingUrl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tracking URL: " />
+
+        <TextView
+            android:id="@+id/tvParcelSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sender:  " />
+
+        <TextView
+            android:id="@+id/tvParcelCo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Courier: " />
+    </LinearLayout>
+
+</ScrollView>

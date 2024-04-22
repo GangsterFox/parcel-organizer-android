@@ -118,18 +118,8 @@ class ParcelsFragment : BaseMVVMFragment<FragmentParcelsBinding, ParcelsViewMode
      * Hey Arthur, this is your cue to help me with kotlin classes lol
      * */
     override fun onParcelClick(parcel: Parcel) {
-        val trackingUrl = parcel.parseTrackingUrl()
-        if (!trackingUrl.isNullOrEmpty()) {
-            val builder = CustomTabsIntent.Builder()
-            val customTabsIntent = builder.build()
-            customTabsIntent.launchUrl(context, Uri.parse(trackingUrl))
-        } else {
-            Toast.makeText(
-                context,
-                getString(R.string.provide_valid_url),
-                Toast.LENGTH_SHORT
-            ).show()
-        }
+        val action = ParcelsFragmentDirections.actionParcelsFragmentToParcelsDetailView(parcel)
+        findNavController().navigate(action)
     }
 
     /**

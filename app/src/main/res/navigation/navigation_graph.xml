@@ -57,6 +57,15 @@
             app:nullable="true" />
     </fragment>
     <fragment
+        android:id="@+id/parcelsDetailView"
+        android:name="com.km.parcelorganizer.ui.parcels.ParcelsDetailView"
+        android:label="ParcelsDetailView"
+        tools:layout="@layout/fragment_parcel_detail">
+        <argument
+            android:name="parcel"
+            app:argType="com.km.parcelorganizer.model.Parcel" />
+    </fragment>
+    <fragment
         android:id="@+id/loginFragment"
         android:name="com.km.parcelorganizer.ui.login.LoginFragment"
         android:label="@string/login"
