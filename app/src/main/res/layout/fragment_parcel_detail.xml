@@ -46,7 +46,7 @@
             android:text="Sender:  " />
 
         <TextView
-            android:id="@+id/tvParcelCo"
+            android:id="@+id/tvParcelCourier"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Courier: " />
