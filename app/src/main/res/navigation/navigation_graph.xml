@@ -56,14 +56,14 @@
             app:argType="string"
             app:nullable="true" />
         <action
-            android:id="@+id/action_parcelsFragment_to_parcelsDetailView2"
-            app:destination="@id/parcelsDetailView" />
+            android:id="@+id/action_parcelsFragment_to_parcelDetailedView"
+            app:destination="@id/parcelsDetailedView" />
     </fragment>
     <fragment
-        android:id="@+id/parcelsDetailView"
+        android:id="@+id/parcelsDetailedView"
         android:name="com.km.parcelorganizer.ui.parcels.ParcelsDetailView"
         android:label="ParcelsDetailView"
-        tools:layout="@layout/fragment_parcel_detail">
+        tools:layout="@layout/fragment_parcel_detailedview">
         <argument
             android:name="parcel"
             app:argType="com.km.parcelorganizer.model.Parcel" />
